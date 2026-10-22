@@ -1,0 +1,8 @@
+services:
+  api:
+    build: ./app
+    image: laboratorio-node:v1
+    ports:
+      - "3000:3000"
+    environment:
+      APP_VERSION: v1
